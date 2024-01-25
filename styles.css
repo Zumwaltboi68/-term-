@@ -1,0 +1,73 @@
+#terminal {
+  width: 800px;
+  height: 600px;
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+#header {
+  height: 30px;
+  background-color: #222;
+  color: #fff;
+  padding: 5px;
+}
+
+#title {
+  float: left;
+}
+
+#close,
+#minimize,
+#maximize {
+  float: right;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+#close:hover,
+#minimize:hover,
+#maximize:hover {
+  color: #ccc;
+}
+
+#content {
+  height: calc(100% - 30px);
+  overflow-y: scroll;
+}
+
+#prompt {
+  padding: 5px;
+}
+
+#user {
+  color: #009688;
+}
+
+#hostname {
+  color: #3d9970;
+}
+
+#directory {
+  color: #98971a;
+}
+
+#dollar {
+  color: #fff;
+}
+
+#output {
+  padding: 5px;
+}
+
+.command {
+  color: #fff;
+  font-weight: bold;
+}
+
+.output {
+  color: #98971a;
+}
